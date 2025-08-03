@@ -8,6 +8,8 @@ I found I couldn't build it due to some issues. So forked theirs and tweaked the
 
 Make sure you have SDL3 and OpenALSoft folder that has the includes and lib files in the root. Visual Studio should pick everything up as I made everything use relative paths so just open the Visual Studio project (2022 edition preferred) thats in build folder and build the project as Debug or Release.
 
+Put game files into the folder called "avp" in the root. Builds will auto copy the exe into there.
+
 Best of luck!
 
 Aliens vs Predator  http://icculus.org/avp/
