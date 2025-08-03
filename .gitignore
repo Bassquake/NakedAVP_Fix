@@ -1,5 +1,5 @@
 avp/*
-avp/!put_game_files_here.txt
+!avp/put_game_files_here.txt
 build/.vs
 build/avp.dir
 build/CMakeFiles
