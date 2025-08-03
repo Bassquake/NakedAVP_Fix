@@ -727,7 +727,7 @@ static int SetOGLVideoMode(int Width, int Height)
 	
 	SetWindowSize(Width, Height, Width, Height);
 	
-	int NewWidth, NewHeight;
+	int NewWidth = 0, NewHeight = 0;
 	SDL_GetWindowSize(window, &Width, &Height);
 	if (Width != NewWidth || Height != NewHeight) {
 		//printf("Failed to change size: %d,%d vs. %d,%d\n", Width, Height, NewWidth, NewHeight);
