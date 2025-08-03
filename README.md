@@ -6,7 +6,7 @@ https://github.com/atsb/NakedAVP
 
 I found I couldn't build it due to some issues. So forked theirs and tweaked the visual studio project and fixed a couple of files.
 
-Make sure you have SDL3 and OpenALSoft folder that has the includes and lib files in the root. Visual Studio should pick everything up as I made everything use relative paths.
+Make sure you have SDL3 and OpenALSoft folder that has the includes and lib files in the root. Visual Studio should pick everything up as I made everything use relative paths so just open the Visual Studio project (2022 edition preferred) thats in build folder and build the project as Debug or Release.
 
 Best of luck!
 
